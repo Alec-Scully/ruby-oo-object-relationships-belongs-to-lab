@@ -1,3 +1,5 @@
+require 'pry'
+
 class Artist
     attr_accessor :name
 
@@ -5,3 +7,6 @@ class Artist
         @name = name
     end
 end
+
+binding.pry
+0
